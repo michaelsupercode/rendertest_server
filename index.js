@@ -17,7 +17,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", (req, res) => {
-    res.send("<h6>..fuckin well running..:()</h6>")
+    res.send("<h6>..server flakebook is running well..:()</h6>")
 })
 
 app.use(express.static("uploads"))
